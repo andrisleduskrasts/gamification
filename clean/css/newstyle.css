@@ -1,0 +1,6 @@
+[data-text] {
+  color: brown;
+}
+[data-text]::after {
+  content: attr(data-text);
+}
